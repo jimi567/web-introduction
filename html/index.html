@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개페이지 과제</title>
+</head>
+<body>
+    <div>
+        <h1>자기소개</h1>
+        <li>이름 : Wiib</li>
+        <li>사는 곳 : 부천</li>
+        <li>대충 자기소개</li>
+    </div>
+    <div>
+        <h1>좋아하는 음악 BEST5</h1>
+        <table>
+            <tr>
+                <td>순위</td>
+                <td>제목</td>
+                <td>앨범</td>
+                <td>아티스트</td>
+                <td>링크</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>야망</td>
+                <td><img src="../images/야망.PNG" width = "200" height="200"></td>
+                <td>릴러말즈(Feat. ASH ISLAND, 김효은, Hash Swan, CHANGMO) (Prod. TOIL)</td>
+                <td><a href = "https://www.youtube.com/watch?v=9re7Mg9OW9s">클릭</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>방에 혼자 있을 때</td>
+                <td><img src ="../images/방에%20혼자%20있을%20때.PNG" width = "200" height="200"></td>
+                <td>릴러말즈(Feat. CHANGMO, ASH ISLAND)</td>
+                <td><a href = "https://www.youtube.com/watch?v=4PK2n52X-4I">클릭</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>작별 인사</td>
+                <td><img src ="../images/작별%20인사.PNG" width = "200" height="200"></td>
+                <td>ASH ISLAND(Feat. Paul Blanco)</td>
+                <td><a href = "https://www.youtube.com/watch?v=dP8gC3FYpis">클릭</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Cheers</td>
+                <td><img src ="../images/mrs%20green%20apple.PNG" width = "200" height="200"></td>
+                <td>Mrs, Green Apple</td>
+                <td><a href = "https://www.youtube.com/watch?v=61FXSabbeC4">클릭</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>시차</td>
+                <td><img src ="../images/시차.PNG" width = "200" height="200"></td>
+                <td>우원재(Feat. 로꼬 & GRAY)</td>
+                <td><a href = "https://www.youtube.com/watch?v=RsHq6Q-7NsU">클릭</a></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>방명록</h1>
+        <p>이름 : <input type="text" id="nameInput"></p>
+        <p>본인 취향 음악</p>
+        <input type="checkbox" name="music"> 야망
+        <input type="checkbox" name="music"> 방에 혼자 있을 때
+        <input type="checkbox" name="music"> 작별 인사
+        <input type="checkbox" name="music"> Cheers
+        <input type="checkbox" name="music"> 시차
+        <p>
+        <button type="button" onclick="countCheckedBox()">등록</button>
+        <button type="reset" onclick="reset()">취소</button>
+        </p>
+    </div>
+</body>
+</html>
+<style>
+    @import url(../css/index.css);
+</style>
+<script src="../js/index.js"></script>
